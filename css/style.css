@@ -1,0 +1,78 @@
+.logo{
+    height: 80px;
+    width: 150px;
+    margin-left: 45px;
+}
+#menu{
+    background-color:#ddd;
+    height: 100px;
+    width: 100%;
+    float: left;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    float: right;
+    line-height: 96px;
+    margin-right: 45px;
+}
+.app-title{
+    margin-top:45px;
+    font-size: 30px;
+    text-decoration: none;
+}
+nav ul li{
+    list-style-type: none;
+}
+.formulaire-presence{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.login-image, .formulaire{
+    width: 50%;
+}
+.form-control{
+    height: 50px;
+    width: 80%;
+    border-radius: 10px;
+}
+.form-group{
+    margin-top: 100px;
+
+}
+.btn-register{
+    width: 80%;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: blue;
+    border-radius: 10px;
+    color: #FFF;
+}
+.form-control::placeholder{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+footer{
+    background-color: black;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.footer-content{
+    color: white;
+    font-size: 20px;
+    margin: 40px auto;
+    text-align: center;
+}
+#emailmessage{
+    color: red !important;
+}
